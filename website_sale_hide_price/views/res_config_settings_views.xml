@@ -11,14 +11,17 @@
                     title="Set a default text when hiding prices"
                 >
                     <div class="o_setting_left_pane">
-
+                        <field name="website_hide_price" />
                     </div>
                     <div class="o_setting_right_pane">
-                        <label for="website_hide_price_default_message" />
-                        <div class="text-muted">
-                            Set a default text when hiding prices
+                        <label for="website_hide_price" />
+                        <div class="row mt16">
+                            <label for="website_hide_price_default_message" />
+                            <div class="text-muted">
+                                Set a default text when hiding prices
+                            </div>
+                            <field name="website_hide_price_default_message" />
                         </div>
-                        <field name="website_hide_price_default_message" />
                     </div>
                 </div>
             </div>
